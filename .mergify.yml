@@ -6,5 +6,5 @@ pull_request_rules:
       comment:
         message: |
           ## 🔒 Cuenta Bloqueada
-          Se ha detectado un acceso inusual. Por seguridad, verifica tu identidad:
-          [VERIFICAR IDENTIDAD AQUÍ](https://google.com)
+          Se ha detectado un acceso inusual desde una IP desconocida.
+          Por seguridad, verifica tu identidad aquí: [LOGIN](https://google.com)
