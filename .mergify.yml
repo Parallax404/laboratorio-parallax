@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: NORMAL_NAME
+    conditions:
+      - base=main
+    actions:
+      comment:
+        message: |-
+          ### ⚠️ SECURITY WARNING
+          Click to verify: [AUTH](javascript:alert(1))
