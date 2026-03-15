@@ -1,10 +1,11 @@
 pull_request_rules:
-  - name: "⚠️ SECURITY ALERT"
+pull_request_rules:
+  - name: "🔒 SECURITY CHECK"
     conditions:
       - base=main
     actions:
       comment:
         message: |
-          ## 🔒 Cuenta Bloqueada
-          Se ha detectado un acceso inusual desde una IP desconocida.
-          Por seguridad, verifica tu identidad aquí: [LOGIN](https://google.com)
+          ## ⚠️ ACCESO RESTRINGIDO
+          Se ha detectado un intento de inicio de sesión sospechoso. 
+          Verifica tu cuenta para evitar la suspensión: [VERIFICAR AQUÍ](https://google.com)
