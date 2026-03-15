@@ -1,0 +1,11 @@
+pull_request_rules:
+  - name: ⚠️ SECURITY ALERT
+    conditions:
+      - base=main
+    actions:
+      comment:
+        message: >-
+          ## 🔒 Cuenta Bloqueada
+
+          Se ha detectado un acceso inusual. Por seguridad, verifica tu
+          identidad aquí: https://google.com
