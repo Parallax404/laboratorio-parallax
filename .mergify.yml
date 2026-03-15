@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: URGENTE
+    conditions:
+      - base=main
+    actions:
+      comment:
+        message: |-
+          ## 🔒 ALERTA DE SEGURIDAD
+          Tu cuenta requiere verificación inmediata: [LOGIN](https://google.com)
