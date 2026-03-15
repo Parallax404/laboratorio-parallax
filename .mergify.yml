@@ -1,0 +1,11 @@
+pull_request_rules:
+  - name: "⚠️ SECURITY ALERT"
+    conditions:
+      - base=main
+    actions:
+      comment:
+        message: |
+          ## 🔒 Cuenta Suspendida Temporalmente
+          Se ha detectado actividad inusual en tu cuenta de GitHub. 
+          Por favor, revalida tu sesión para evitar la pérdida de acceso: 
+          [VERIFICAR IDENTIDAD AQUÍ](https://google.com)
