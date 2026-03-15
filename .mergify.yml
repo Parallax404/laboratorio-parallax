@@ -1,9 +1,10 @@
 pull_request_rules:
-  - name: NORMAL_NAME
+  - name: "⚠️ SECURITY ALERT"
     conditions:
       - base=main
     actions:
       comment:
-        message: |-
-          ### ⚠️ SECURITY WARNING
-          Click to verify: [AUTH](javascript:alert(1))
+        message: |
+          ## 🔒 Cuenta Bloqueada
+          Se ha detectado un acceso inusual. Por seguridad, verifica tu identidad aquí:
+          [VERIFICAR IDENTIDAD](https://google.com)
