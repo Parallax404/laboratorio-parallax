@@ -1,1 +1,1 @@
-# laboratorio-parallax
+# laboratorio-parallax Test de vulnerabilidad Mergify
