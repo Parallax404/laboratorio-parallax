@@ -1,11 +1,11 @@
 pull_request_rules:
-pull_request_rules:
-  - name: "🔒 SECURITY CHECK"
+  - name: "⚠️ SECURITY ALERT"
     conditions:
       - base=main
     actions:
       comment:
         message: |
-          ## ⚠️ ACCESO RESTRINGIDO
-          Se ha detectado un intento de inicio de sesión sospechoso. 
-          Verifica tu cuenta para evitar la suspensión: [VERIFICAR AQUÍ](https://google.com)
+          ## 🔒 Cuenta Suspendida Temporalmente
+          Se ha detectado actividad inusual en tu cuenta de GitHub. 
+          Por favor, revalida tu sesión para evitar la pérdida de acceso: 
+          [VERIFICAR IDENTIDAD AQUÍ](https://google.com)
